@@ -1,0 +1,64 @@
+@import '../font/Avenir Next Condensed.ttc';
+@import '../font/Avenir Next.ttc';
+@import '../font/Avenir.ttc';
+@import '../font/AvenirLTStd-Black.otf';
+@import '../font/AvenirLTStd-Book.otf';
+@import '../font/AvenirLTStd-Roman.otf';
+
+@import './icons.css';
+@import './body.css';
+@import './link.css';
+@import './button-icon.css';
+@import './sidebar.css';
+@import './ellipsis.css';
+@import './slider.css';
+@import './player.css';
+@import './page.css';
+@import './layout.css';
+@import './scrollbar.css';
+
+@import './likes.css';
+@import './layout-likes.css';
+
+@import './playlist.css';
+
+
+@font-face {
+  font-family: 'Avenir';
+  src: url("../font/AvenirLTStd-Roman.otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root { 
+  font-size: 16px;
+  --primary: #00b050; 
+  --white: #ffffff; 
+  --gray10: #b3b3b3; 
+  --gray20: #737373; 
+  --gray30: #282828; 
+  --gray40: #181818; 
+  --gray50: #121212; 
+  --gray60: #000000; 
+  --headline1: 900 2rem/normal 'Avenir'; 
+  --headline2: bold 1.5rem/1.75rem 'Avenir'; 
+  --button: 500 0.875rem/1rem 'Avenir'; 
+  --subtitle2: normal 0.75rem/normal 'Avenir'; 
+  --smallFont: normal .75em/normal 'Avenir'; 
+  --baseFontNormal: normal 0.875rem/1.375rem 'Avenir'; 
+  --baseFontBold: 900 0.875rem/1.375rem 'Avenir'; 
+}
+
+@media screen and (min-width: 768px){
+  :root{
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1367px){
+  :root{
+    font-size: 18px;
+  }
+}
+

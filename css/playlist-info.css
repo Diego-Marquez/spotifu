@@ -1,0 +1,27 @@
+.playlistInfo{
+  /* border: 1px solid red; */
+  color: var(--white);
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+}
+.playlistInfo h1{
+  font: var(--headline1);
+}
+
+.playlistInfo-title{
+  display: flex;
+  flex-direction: column;
+}
+.playlistInfo span{
+  font: var(--smallFont);
+}
+
+
+.playlistInfo > .playlistInfo-title h1{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* número de lineas que se van a mostrar */
+          line-clamp: 2; 
+  -webkit-box-orient: vertical;
+}

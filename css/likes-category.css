@@ -1,0 +1,44 @@
+
+.likesCategory{
+  /* border: 1px solid red; */
+  text-transform: uppercase;
+  color:var(--white);
+  display: flex;
+  align-items: center;
+  font: var(--smallFont);
+  color: var(--gray10);
+  justify-content: space-between;
+  padding-inline-start: 3.875rem;
+  padding-block-end: 1.5rem ;
+
+}
+
+.likesCategory a{
+  text-decoration: none;
+  color: var(--white);
+}
+
+
+.likesCategory-artist{
+  /* border: solid 1px red; */
+
+}
+.likesCategory-album{
+  /* border: solid 1px red; */
+  margin-inline-end: 1rem;
+}
+
+
+.likesCategory-meta{
+display: flex;
+gap: 6rem;
+  
+}
+ /* .icon-calendar{
+  padding-inline-end: 4.5rem;
+} */
+
+.icon-clock{
+  padding-inline-end: .2rem;
+} 
+

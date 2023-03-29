@@ -1,0 +1,24 @@
+@import './likes-category.css';
+@import './likes-content.css';
+@import './filter.css';
+@import './likes-info.css';
+@import './likes-v2.css';
+
+body{
+  /* background: var(--gray50); */
+  margin: 0;
+
+}
+
+.likesPage-container{
+  background-image: linear-gradient(0deg, var(--gray50) 0%, var(--gray50) 30%, rgba(255,255,255,0) 100%),
+  url('../images/image-1.png');
+  background-size: cover;
+  padding-inline: 2em;
+}
+
+
+.likesPage-container .header{
+  backdrop-filter: none;
+}
+

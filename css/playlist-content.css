@@ -1,0 +1,44 @@
+
+:root {
+  counter-reset: my-sec-counter;
+}
+
+.playlistContent-container{
+  color: var(--white);
+}
+.playlistContent{
+  color:var(--white);
+  display: flex;
+  align-items: center;
+  font: var(--baseFontNormal);
+  justify-content: space-between;
+  padding-block-end: 1rem;
+}
+.playlistContent-title{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.playlistContent a{
+  text-decoration: none;
+  color: var(--white);
+}
+
+.playlistContent-artist-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.playlistImg-container{
+  display: flex;
+  align-items: center;
+}
+
+.playlistContent span::before {
+  counter-increment: my-sec-counter;
+  content: counter(my-sec-counter) ". ";
+}
+
+.playlistImg-container img{
+  block-size: 3rem;
+}

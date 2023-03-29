@@ -1,0 +1,32 @@
+.likesInfo{
+  color: var(--white);
+  /* display: flex;
+  flex-direction: column; */
+  text-align: center;
+}
+
+.likesInfo h1{
+  font: var(--headline1);  
+  padding-block-end: 1rem;
+  margin: 0;
+}
+
+
+.likesInfo p{
+  margin-block-start: 0;
+  margin-block-end: 1rem;
+}
+
+.likesInfo-meta{
+  font: var(--baseFontNormal);
+}
+
+.likesInfo button{
+  background: var(--primary);
+  border: none;
+  color: var(--white);
+  text-transform:uppercase;
+  padding-inline: 2rem;
+  padding-block: .5rem;
+  border-radius: 1rem;
+}

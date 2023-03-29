@@ -1,0 +1,26 @@
+.layout{
+
+  /* scrollbar-width: .5rem; */
+}
+
+::-webkit-scrollbar{
+  inline-size: .5rem;
+  block-size: .5rem;
+}
+
+::-webkit-scrollbar-thumb{
+background: var(--gray60);
+}
+
+::-webkit-scrollbar-track{
+  background: var(--gray50);
+}
+
+/* Firefox scrollbar */
+@-moz-document url-prefix(){
+  .layout > *{
+    overflow-y: scroll;
+    scrollbar-color:var(--gray60) var(--gray50) ;
+    scrollbar-width: thin;
+  }
+}

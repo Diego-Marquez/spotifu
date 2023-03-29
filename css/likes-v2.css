@@ -1,0 +1,37 @@
+
+
+.likesPage-v2-info-container{
+  display: flex;
+  padding-block-end: 2.5rem;
+  padding-block-start: 1.5rem;
+}
+.likesInfo-v2{
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 1rem;
+}
+.likesPage-container-v2{
+  background: var(--gray50);
+  background-size: cover;
+  padding-inline: 2em;
+  }
+
+  .likesInfo-v2 h1{
+    font: var(--headline1);
+  }
+
+  .likesInfo-v2-img-container{
+    display: flex;
+  }
+
+
+  .likesInfo-v2 button{
+    border: none;
+    color: var(--white);
+    background-color: var(--primary);
+    padding-block: .5rem;
+    padding-inline: 2rem;
+    border-radius: 1rem;
+  }
+  

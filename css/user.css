@@ -1,0 +1,53 @@
+.login-button{
+  border-radius: 1.5rem;
+  border: none;
+  background: var(--white);
+  color: var(--gray50);
+  text-transform: uppercase;
+  font: var(--baseFontBold);
+  padding-block: .5rem;
+  padding-inline: 2rem;
+  cursor: pointer;
+}
+.login-button:hover{
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 30);
+}
+
+.login-button:active{
+  transform: scale(.95);
+}
+
+.loged-button{
+  border: none;
+  font: var(--baseFontNormal);
+  background: rgba(0, 0, 0, 0.7);
+  color: var(--white);
+  border-radius: 2rem;
+  padding-block: .125rem;
+  padding-inline-start: .125rem;
+  padding-inline-end: 0.625rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .25rem;
+
+}
+
+.loged-button span{
+  padding-inline-end: 0.625rem;
+}
+
+.icon-Vector{
+  font-size: .5rem;
+}
+
+.loged img{
+  block-size: 2rem;
+  inline-size: 2rem;
+}
+
+.loged-button span{
+
+}
+
