@@ -50,3 +50,11 @@
   opacity: 0;
   transition: .3s;
 }
+
+.sidebarUser-details > .sidebarUser-details-bottom{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* número de lineas que se van a mostrar */
+          line-clamp: 1; 
+  -webkit-box-orient: vertical;
+  }
